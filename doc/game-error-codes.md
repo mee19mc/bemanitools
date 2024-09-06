@@ -121,6 +121,7 @@ HDD READ ERROR
 #### Known occurances
 
 - GFDM V4
+- GITADORA (Original)
 
 #### How to fix
 
@@ -232,7 +233,7 @@ USBIO ERROR (FM DL-ERR)
 
 #### Known occurances
 
-N/A
+- IIDX
 
 #### How do I fix it?
 
@@ -331,10 +332,11 @@ the game may take 1-3 minutes longer to boot as it regenerates backup data.
 #### Known occurances
 
 - Jubeat Ripples
+- IIDX 17
 
 #### How do I fix it?
 
-- Check the integrity of the data you have, i.e. some files might be corrupted
+- Check the integrity of the data you have, i.e. some files might be corrupted/missing.
 - If the data came in an archive format, try extracting it again with another application.
 - Check your physical drive. Is it failing?
 
@@ -346,11 +348,13 @@ HDD Data Error(Music Data)
 
 #### Known occurances
 
-N/A
+- IIDX 28
+
+  Seen in a modified version
 
 #### How do I fix it?
 
-- Check the integrity of the data you have, i.e. some files might be corrupted
+- Check the integrity of the data you have, i.e. some files might be corrupted/missing.
 - If the data came in an archive format, try extracting it again with another application.
 - Check your physical drive. Is it failing?
 
@@ -442,7 +446,7 @@ This error may happen before the monitor check on IIDX.
 
 #### Known occurances
 
-- IIDX (version?)
+- IIDX (9 - Current)
 
 #### How do I fix it?
 
@@ -484,8 +488,8 @@ Make sure your ea3-config.xml file contains valid values on the following lines:
 ```
 
 Should almost always be `J`. Certain games will support `K` (Korea) or `A` (Asia) but there is
-rarely a reason to use it. DDR 2014 and forward will support `U`. DanEvo will support (I believe)
-`C`.
+rarely a reason to use it. DDR 2014 and forward will support `U` (Americas). DanEvo will support
+`C` (China).
 
 ```xml
 <spec __type="str">...</spec>
